@@ -1,0 +1,4 @@
+C:\Users\KingKhaos\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5600.25\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\Projects\Aufgabe10"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/KingKhaos/Google Drive/Umschulung 2020/Programmierung/Projects/Aufgabe10/cmake-build-debug

@@ -1,0 +1,19 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/KingKhaos/Google Drive/Umschulung 2020/Programmierung/Projects/Kassenautomat_V2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_e425d\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_e425d.dir\build.make /nologo -L                  CMakeFiles\cmTC_e425d.dir\build
+Building C object CMakeFiles/cmTC_e425d.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~1\2019\BUILDT~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe @C:\Users\KINGKH~1\AppData\Local\Temp\nmDF98.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_e425d.exe
+	C:\Users\KingKhaos\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5600.25\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_e425d.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\BUILDT~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e425d.dir\objects1.rsp @C:\Users\KINGKH~1\AppData\Local\Temp\nmDFE8.tmp
+FINAL LINK: command "C:\PROGRA~2\MICROS~1\2019\BUILDT~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e425d.dir\objects1.rsp /out:cmTC_e425d.exe /implib:cmTC_e425d.lib /pdb:C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\Projects\Kassenautomat_V2\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_e425d.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_e425d.dir/intermediate.manifest CMakeFiles\cmTC_e425d.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: Datei "cmTC_e425d.exe" kann nicht ge÷ffnet werden.
+NMAKE : fatal error U1077: "C:\Users\KingKhaos\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5600.25\bin\cmake\win\bin\cmake.exe": R³ckgabe-Code "0xffffffff"
+Stop.
+NMAKE : fatal error U1077: ""C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86\nmake.exe"": R³ckgabe-Code "0x2"
+Stop.
+
+
+
+

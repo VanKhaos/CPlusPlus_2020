@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/KingKhaos/Google Drive/Umschulung 2020/Programmierung/Projects/Aufgabe10/main.cpp
+iostream
+-
+iomanip
+-
+
