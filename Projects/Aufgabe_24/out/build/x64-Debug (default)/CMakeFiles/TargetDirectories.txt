@@ -1,0 +1,3 @@
+C:/Users/user/Desktop/Programmierung/CPlusPlus_2020/Projects/Aufgabe_24/out/build/x64-Debug (default)/CMakeFiles/Aufgabe_24.dir
+C:/Users/user/Desktop/Programmierung/CPlusPlus_2020/Projects/Aufgabe_24/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/user/Desktop/Programmierung/CPlusPlus_2020/Projects/Aufgabe_24/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
