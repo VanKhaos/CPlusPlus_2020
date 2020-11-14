@@ -5,6 +5,25 @@ using namespace std;
 int Fehlercode = 0;
 bool abfrageWiederholung(char weiter = 'j');
 
+void bestimmeGGT(int zahlEins, int zahlZwei) {
+    int teiler;
+    if (zahlEins <= zahlZwei) {
+        teiler = zahlEins;
+    } else {
+        teiler = zahlZwei;
+    }
+
+    while (zahlEins % teiler != 0 || zahlZwei % teiler != 0) {
+        cout << "Versuche: " << teiler << endl;
+        teiler = teiler - 1;
+    }
+
+
+    // Ausgabe von GGT
+    cout << "Groesster gemeinsamer Teiler: " << teiler << endl;
+}
+
+
 // MAIN
 int main() {
     bool Bedingung = false;
@@ -27,15 +46,13 @@ int main() {
         cin >> zahl2;
         cin.sync();
 
-        
+        // GGT auf 1
+        ggt = 1;
 
         // Prüfen ob Zahl1 = Zahl2 ist
         if (zahl1 == zahl2) {
             ggt = zahl1;
         } else {
-            // GGT auf 1
-            ggt = 1;
-
             // Größere und Kleinere Zahl bestimmen
             if (zahl1 > zahl2) {
                 grossere = zahl1;
@@ -53,26 +70,24 @@ int main() {
             cout << "GGT: " << ggt << endl;
             */
 
+            
+            //bestimmeGGT(zahl1, zahl2);
 
-            for (int i = grossere / 2; i < grossere / kleinere; i = i + 1) {
+
+            for (int i = grossere / 2; i <= grossere / kleinere; i = i - 1) {
                 if (zahl1 / zahl2) {
                     cout << i << endl;
                     ggt = i;
                     break;
-                } else {
+                }
+                else {
                     continue;
                 }
-                
-
             }
-
-
-
+            // Ausgabe von GGT
+            cout << "Groesster gemeinsamer Teiler: " << ggt << endl;
+            
         }
-
-
-        // Ausgabe von GGT
-        cout << "Groesster gemeinsamer Teiler: " << ggt << endl;
        
 
         Bedingung = abfrageWiederholung();

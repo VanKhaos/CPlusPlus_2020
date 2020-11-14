@@ -1,0 +1,3 @@
+C:/Users/KingKhaos/Google Drive/Umschulung 2020/Programmierung/CPlusPlus_2020/Projects/Aufgabe_23/out/build/x64-Debug (Standard)/CMakeFiles/Aufgabe_23.dir
+C:/Users/KingKhaos/Google Drive/Umschulung 2020/Programmierung/CPlusPlus_2020/Projects/Aufgabe_23/out/build/x64-Debug (Standard)/CMakeFiles/edit_cache.dir
+C:/Users/KingKhaos/Google Drive/Umschulung 2020/Programmierung/CPlusPlus_2020/Projects/Aufgabe_23/out/build/x64-Debug (Standard)/CMakeFiles/rebuild_cache.dir

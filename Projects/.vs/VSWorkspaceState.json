@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Kassenautomat_V2",
-    "\\Kassenautomat_V3",
-    "\\Kassenautomat_V3\\out\\build",
-    "\\Kassenautomat_V3\\out\\build\\x64-Debug (Standard)"
+    "\\Aufgabe_23",
+    "\\Aufgabe_24",
+    "\\Kassenautomat_V3"
   ],
-  "SelectedNode": "\\Kassenautomat_V2\\main.cpp",
+  "SelectedNode": "\\Aufgabe_24\\main.cpp",
   "PreviewInSolutionExplorer": false
 }
