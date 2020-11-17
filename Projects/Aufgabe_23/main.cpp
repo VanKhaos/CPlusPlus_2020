@@ -71,21 +71,8 @@ int main() {
             */
 
             
-            //bestimmeGGT(zahl1, zahl2);
+            bestimmeGGT(zahl1, zahl2);
 
-
-            for (int i = grossere / 2; i <= grossere / kleinere; i = i - 1) {
-                if (zahl1 / zahl2) {
-                    cout << i << endl;
-                    ggt = i;
-                    break;
-                }
-                else {
-                    continue;
-                }
-            }
-            // Ausgabe von GGT
-            cout << "Groesster gemeinsamer Teiler: " << ggt << endl;
             
         }
        
