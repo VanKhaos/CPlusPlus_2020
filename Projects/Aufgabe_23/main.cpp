@@ -5,6 +5,39 @@ using namespace std;
 int Fehlercode = 0;
 bool abfrageWiederholung(char weiter = 'j');
 
+<<<<<<< Updated upstream
+=======
+void bestimmeGGT(int zahlEins, int zahlZwei) {
+    int teiler;
+    if (zahlEins <= zahlZwei) {
+        teiler = zahlEins;
+    } else {
+        teiler = zahlZwei;
+    }
+
+    while (zahlEins % teiler != 0 || zahlZwei % teiler != 0) {
+        cout << "Versuche: " << teiler << endl;
+        teiler = teiler - 1;
+    }
+
+
+    // Ausgabe von GGT
+    cout << "Groesster gemeinsamer Teiler: " << teiler << endl;
+}
+
+int zahl = 10;
+int zahlen[2] = { 1,2 };
+
+int berechne(int pzahl, int pzahlen[]) {
+    int sum;
+    sum = pzahl + pzahlen[];
+    return sum;
+}
+
+
+berechne(zahl, zahlen);
+
+>>>>>>> Stashed changes
 // MAIN
 int main() {
     bool Bedingung = false;
