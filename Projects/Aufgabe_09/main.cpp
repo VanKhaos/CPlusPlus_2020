@@ -18,7 +18,7 @@ int main() {
 
 
     for (int i = 1; i <= _userAction; i++) {
-        _sum = _sum * i;
+        _sum = _sum + i;
     }
 
     cout << "Produkt: " << _sum << endl;

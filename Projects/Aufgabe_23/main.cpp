@@ -5,25 +5,6 @@ using namespace std;
 int Fehlercode = 0;
 bool abfrageWiederholung(char weiter = 'j');
 
-void bestimmeGGT(int zahlEins, int zahlZwei) {
-    int teiler;
-    if (zahlEins <= zahlZwei) {
-        teiler = zahlEins;
-    } else {
-        teiler = zahlZwei;
-    }
-
-    while (zahlEins % teiler != 0 || zahlZwei % teiler != 0) {
-        cout << "Versuche: " << teiler << endl;
-        teiler = teiler - 1;
-    }
-
-
-    // Ausgabe von GGT
-    cout << "Groesster gemeinsamer Teiler: " << teiler << endl;
-}
-
-
 // MAIN
 int main() {
     bool Bedingung = false;
@@ -62,20 +43,25 @@ int main() {
                 kleinere = zahl1;
             }
 
-            /*DEBUG: VARIABLEN AUSGABE 
+            /*DEBUG: VARIABLEN AUSGABE */
             cout << "Zahl1: " << zahl1 << endl;
             cout << "Zahl2: " << zahl2 << endl;
             cout << "Groessere: " << grossere << endl;
             cout << "Kleinere: " << kleinere << endl;
-            cout << "GGT: " << ggt << endl;
-            */
-
+            cout << "DEBUG GGT: " << ggt << endl;
             
-            bestimmeGGT(zahl1, zahl2);
 
-            
+            ggt = kleinere;
+
+            for (int i = grossere / 2; i >= grossere / kleinere; i = i - 1) {
+                if (zahl1 % i == 0 && zahl2 % i == 0) {
+                    ggt = i;
+                    break;
+                } 
+
+            }
         }
-       
+        cout << "GGT: " << ggt << endl;
 
         Bedingung = abfrageWiederholung();
     } while (Bedingung);
