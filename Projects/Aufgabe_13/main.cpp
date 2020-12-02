@@ -9,9 +9,6 @@ int main () {
   bool Bedingung=false;
   char Weiter='j';
 
-
-
-
   const int MaxZeichen=50;
   char Zeichenkette[MaxZeichen]="uhu";
   int Laenge=3;
