@@ -6,6 +6,16 @@ using namespace std;
 int Fehlercode = 0;
 bool abfrageWiederholung(char weiter = 'j');
 
+int berechneQuersumme(int zahl) {
+    int summe = 0;
+    while (zahl > 0) {
+        int digi = zahl % 10;
+        zahl = zahl / 10;
+        summe += digi;
+    }
+    return zahl;
+}
+
 int main() {
     bool Bedingung = false;
     char Weiter = 'j';
@@ -21,13 +31,11 @@ int main() {
         cin.sync();
         cin.clear();
 
+        berechneQuersumme(userNumber);
+
         cout << "Die Nummer lautet: " << userNumber << endl;
 
-        while (userNumber > 0) {
-            int digi = userNumber % 10;
-            quer += digi;
-            userNumber = userNumber / 10;
-        }
+        
         
         cout << "Quersumme: " << quer << endl;
 

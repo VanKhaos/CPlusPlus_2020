@@ -6,6 +6,27 @@ using namespace std;
 int Fehlercode = 0;
 bool abfrageWiederholung(char weiter = 'j');
 
+void normiereSchreibweise(char Zeichenkette[]) {
+    int i;
+    for (i = 0; Zeichenkette[i] != '\0'; i = i + 1) {
+        if (Zeichenkette[i] >= 65 && Zeichenkette[i] <= 92) {
+            Zeichenkette[i] = Zeichenkette[i] + 32;
+        }
+    }
+}
+
+int entferneLeerzeichen(char Zeichenkette[]) {
+    int k = 0;
+    for (int i = 0; Zeichenkette[i] != '\0'; i = 1 + 1) {
+        if (Zeichenkette[i] != ' ') {
+            Zeichenkette[k] = '\0';
+            k = k + 1;
+        }
+    }
+    Zeichenkette[k] = '\0';
+    return k;
+}
+
 int main() {
     bool Bedingung = false;
     char Weiter = 'j';
@@ -23,38 +44,21 @@ int main() {
         cin.sync();
         Laenge = cin.gcount() - 1;
 
-        int k = 0;
-        for (int i = 0; i < Laenge; i = 1 + 1) {
-            if (Zeichenkette[i] != ' ') {
-                Zeichenkette[k] = '\0';
-                Laenge = k;
-                for (int i = 0; i < Laenge / 2; i = i + 1) {
-                    if (Zeichenkette[i] == Zeichenkette[Laenge - 1 - i]) {
-                        continue;
-                    }
-                }
-                Palindrom = false;
-                break;
+        normiereSchreibweise(Zeichenkette);
+        entferneLeerzeichen(Zeichenkette);
+        
+        for (int i = 0; i < Laenge / 2; i = i + 1) {
+            if (Zeichenkette[i] == Zeichenkette[Laenge - 1 - i]) {
+                continue;
             }
+            Palindrom = false;
+            break;
         }
 
-
         cout << "Die Zeichenkette ist " << (Palindrom ? "" : "k") << "ein Palindrom." << endl;
-        
-
-
 
         Bedingung = abfrageWiederholung();
     } while (Bedingung);
 
     return Fehlercode;
-}
-
-char convertZeichenkette(char zeichenkette, int laenge) {
-    int i;
-    for (i = 0; i <= laenge; i = i + 1) {
-        if (zeichenkette[i] >= 65 && zeichenkette[i] <= 92) {
-            zeichenkette[i] = zeichenkette[i] + 32;
-        }
-    }
 }
