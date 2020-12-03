@@ -5,16 +5,12 @@ using namespace std;
 int Fehlercode = 0;
 bool abfrageWiederholung(char weiter = 'j');
 // char* intToStr(int Zahl, char Text);
-void div(double & erg, int Zaehler, int Nenner = 1) {
+void div(double erg, int Zaehler, int Nenner = 1) {
     erg = Zaehler / Nenner;
     return;
 }
 
-double div(int zaehler, int nenner = 1) {
-    double erg;
-    erg = zaehler / nenner;
-    return erg;
-}
+
 // MAIN
 int main() {
     bool Bedingung = false;

@@ -3,12 +3,7 @@
   "tasks": [
     {
       "taskLabel": "task-main",
-      "appliesTo": "Projects/Aufgabe_10/main.cpp",
-      "type": "launch"
-    },
-    {
-      "taskLabel": "task-BasisScript",
-      "appliesTo": "Projects/Beispiel/BasisScript.cpp",
+      "appliesTo": "Projects/KlausurTest/main.cpp",
       "type": "launch"
     }
   ]
