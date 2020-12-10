@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Aufgabe_15",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Aufgabe_15::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aufgabe_15-Debug-04f6a737c27e44b33caa.json",
+					"name" : "Aufgabe_15",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/KingKhaos/Google Drive/Umschulung 2020/Programmierung/CPlusPlus_2020/Projects/Aufgabe_15/out/build/x64-Debug (Standard)",
+		"source" : "C:/Users/KingKhaos/Google Drive/Umschulung 2020/Programmierung/CPlusPlus_2020/Projects/Aufgabe_15"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

@@ -1,0 +1,4 @@
+﻿  Passwortgenerator.cpp
+C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\CPlusPlus_2020\Projects\Aufgaben\Passwortgenerator\Passwortgenerator.cpp(8,15): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\CPlusPlus_2020\Projects\Aufgaben\Passwortgenerator\Passwortgenerator.cpp(11,23): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Passwortgenerator.vcxproj -> C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\CPlusPlus_2020\Projects\Aufgaben\Debug\Passwortgenerator.exe

@@ -1,0 +1,8 @@
+﻿  Container.cpp
+C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\CPlusPlus_2020\Projects\Basic\Container\Container.cpp(120,54): warning C4305: "Initialisierung": Verkürzung von "double" in "_Ty"
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\CPlusPlus_2020\Projects\Basic\Container\Container.cpp(190,23): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Container.vcxproj -> C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\CPlusPlus_2020\Projects\Basic\Debug\Container.exe

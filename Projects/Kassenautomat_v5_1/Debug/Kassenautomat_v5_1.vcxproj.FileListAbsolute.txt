@@ -1,0 +1,2 @@
+C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\CPlusPlus_2020\Projects\Kassenautomat_v5_1\Debug\Kassenautomat_v5_1.exe
+C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\CPlusPlus_2020\Projects\Kassenautomat_v5_1\Debug\Kassenautomat_v5_1.pdb

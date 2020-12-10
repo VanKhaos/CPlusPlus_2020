@@ -1,0 +1,4 @@
+﻿  Aufgabe 25 - Mitarbeiterliste.cpp
+C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\CPlusPlus_2020\Projects\Aufgaben\Aufgabe 25 - Mitarbeiterliste\Aufgabe 25 - Mitarbeiterliste.cpp(56,23): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\CPlusPlus_2020\Projects\Aufgaben\Aufgabe 25 - Mitarbeiterliste\Aufgabe 25 - Mitarbeiterliste.cpp(94): warning C4717: "showMenu": Rekursiv für alle Steuerelementpfade. Die Funktion verursacht einen Stapelüberlauf zur Laufzeit.
+  Aufgabe 25 - Mitarbeiterliste.vcxproj -> C:\Users\KingKhaos\Google Drive\Umschulung 2020\Programmierung\CPlusPlus_2020\Projects\Aufgaben\Debug\Aufgabe 25 - Mitarbeiterliste.exe
